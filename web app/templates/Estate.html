@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Real Estate Predictor</title>
+  <link rel="stylesheet" href="static/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap-social.css">
+</head>
+
+<body>
+  <div class="h1">
+  <h1 id="heading">Real Estate Price Predictor</h1>
+</div>
+  <img  class="chicken" src="static/Real.jpg" alt="image/chicken.jpg" height=200px width=400px  align="left">
+<div>
+  <p>An accurate prediction on the house price is important to prospective homeowners, developers, investors, appraisers, tax assessors and other real
+    estate market participants, such as, mortgage lenders and insurers.
+  </p>
+  <p>
+     Traditional house price prediction is based on cost and sale price comparison lacking of an accepted standard and a certification process. Therefore,
+    the availability of a house price prediction model helps fill up an important information gap and improve the efficiency of the real estate market.
+  </p>
+</div>
+<br><br><br><br><br>
+
+<div class="main">
+<form  action="{{ url_for('predict')}}" method="POST">
+  <label for="text">Enter RM:</label>
+  <input type="text" name="RM"><br><br>
+  <label for="text">Enter Lstat:</label>
+  <input type="text" name="Lstat"><br><br>
+  <label for="text">Enter Prition:</label>
+  <input type="text" name="Prit">
+  <button type="submit" class="btn btn-info btn-sm">Predict</button>
+</form><br><br><br><br>
+<label for="text">house pricing must be</label>
+<input class="Res" type="textbox" name="Display" size="50" value="{{  pred_text }}">
+</div>
+</body>
+
+
+</html>

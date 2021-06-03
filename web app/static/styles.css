@@ -1,0 +1,21 @@
+                                                    /*TAG SELECTORS*/
+.h1
+{
+font-style: italic;
+color: black;
+margin-left: 50rem
+}                                                  /*CLASS SELECTORS*/
+
+.btn
+{
+  margin-left: 20px
+}
+
+.Res
+{
+margin-left: 2px
+}
+.main
+{
+  padding-left: 10rem
+}
