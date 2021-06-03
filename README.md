@@ -8,9 +8,8 @@ Team Members:
 -->
 
 
-# Real-Estate-Predictor 
-
-dependencies: {
+# Dependencies 
+{
 
 numpy:"1.19.2"
 
@@ -27,6 +26,7 @@ xgboost:"1.4.2"
 seaborn:"0.11.0"
 
 flask:"2.0.0"
+
 }
 
 
