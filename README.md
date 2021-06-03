@@ -1,12 +1,11 @@
-<!--
-Title: Predicting Real Estate (Housing) Prices
+# Title: Predicting Real Estate (Housing) Prices
 
-Team Members:
+# Team Members:
 1.	Karthik Goel-19BCE2002
 2.	Saransh Dabas-19BCE0966
 3.	Geethika Atthi-19BCE2225
 4.	Parth Maitrey-19BCT0188
--->
+
 
 
 
