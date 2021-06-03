@@ -14,11 +14,17 @@ Team Members:
 
 dependencies: {
 numpy:"1.19.2"
+
 pandas:"1.1.3"
+
 matplotlib:"3.3.2"
+
 sklearn:"0.23.2"
+
 pickle:"4.0"
+
 xgboost:"1.4.2"
+
 seaborn:"0.11.0"
 }
 
