@@ -1,13 +1,11 @@
+# Title: Predicting Real Estate (Housing) Prices
 <!--
-Title: Predicting Real Estate (Housing) Prices
-
 Team Members:
 1.	Karthik Goel-19BCE2002
 2.	Saransh Dabas-19BCE0966
 3.	Geethika Atthi-19BCE2225
 4.	Parth Maitrey-19BCT0188
 -->
-
 
 
 # Real-Estate-Predictor 
@@ -33,9 +31,15 @@ flask:"2.0.0"
 
 
 
-Steps:
-1. Download all the dependencies.
-2. Rest run the code in the same order as shown in the file.
-3. To run the flask based application, access the web app folder and run app.py present in it.
-4. To run flask app open terminal in web app folder and type python app.py.
-5. After that application will start running on your localhost.
+# Steps to run the IPYNB file:
+1. Open Jupyter or Google Colab.
+2. Upload the file there.
+3. Download all the dependencies in the Jupyter Terminal(if working with Jupyter).
+4. Rest run the code in the same order as shown in the file.
+
+# Steps to run the Flask Based Web app:
+1. Clone the git repository in a "directory".
+1. Open CMD in your laptop.
+2. Type "cd directory\web app" to access the web app folder. 
+3. Type "python app.py".
+4. After that application will start running on your localhost.
