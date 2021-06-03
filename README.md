@@ -25,8 +25,6 @@ xgboost:"1.4.2"
 
 seaborn:"0.11.0"
 
-flask:"2.0.0"
-
 }
 
 
@@ -34,12 +32,13 @@ flask:"2.0.0"
 # Steps to run the IPYNB file:
 1. Open Jupyter or Google Colab.
 2. Upload the file there.
-3. Download all the dependencies in the Jupyter Terminal(if working with Jupyter).
+3. Download all the dependencies(mentioned above) in the Jupyter Terminal(if working with Jupyter).
 4. Rest run the code in the same order as shown in the file.
 
 # Steps to run the Flask Based Web app:
 1. Clone the git repository in a "directory".
-1. Open CMD in your laptop.
-2. Type "cd directory\web app" to access the web app folder. 
-3. Type "python app.py".
-4. After that application will start running on your localhost.
+2. Open CMD in your laptop.
+3. Type "cd directory\web app" to access the web app folder. 
+4. Type "pip install flask" to install flask.
+5. Type "python app.py".
+6. After that application will start running on your localhost.
