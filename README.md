@@ -37,3 +37,5 @@ Steps:
 1. Download all the dependencies.
 2. Rest run the code in the same order as shown in the file.
 3. To run the flask based application, access the web app folder and run app.py present in it.
+4. To run flask app open terminal in web app folder and type python app.py.
+5. After that application will start running on your localhost.
