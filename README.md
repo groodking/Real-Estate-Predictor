@@ -1,11 +1,12 @@
-# Title: Predicting Real Estate (Housing) Prices
+<!--
+Title: Predicting Real Estate (Housing) Prices
 
-# Team Members:
+Team Members:
 1.	Karthik Goel-19BCE2002
 2.	Saransh Dabas-19BCE0966
 3.	Geethika Atthi-19BCE2225
 4.	Parth Maitrey-19BCT0188
-
+-->
 
 
 
@@ -27,6 +28,7 @@ xgboost:"1.4.2"
 
 seaborn:"0.11.0"
 
+flask:"2.0.0"
 }
 
 
@@ -34,3 +36,4 @@ seaborn:"0.11.0"
 Steps:
 1. Download all the dependencies.
 2. Rest run the code in the same order as shown in the file.
+3. To run the flask based application, access the web app folder and run app.py present in it.
