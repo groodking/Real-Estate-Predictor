@@ -31,9 +31,9 @@ seaborn:"0.11.0"
 
 # Steps to run the IPYNB file:
 1. Open Jupyter or Google Colab.
-2. Upload the file there.
+2. Upload the IPYNB file(Final_code.ipynb) there.
 3. Download all the dependencies(mentioned above) in the Jupyter Terminal(if working with Jupyter).
-4. Rest run the code in the same order as shown in the file.
+4. Run the code in the same order as shown in the IPYNB file.
 
 # Steps to run the Flask Based Web app:
 1. Clone the git repository in a "directory".
